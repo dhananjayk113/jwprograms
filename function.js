@@ -5,7 +5,7 @@ greet();
 
 
 function greetHello(name) {
-  return 3 + name + "!";
+  return "Hello " + name + "!";
 }
 
-console.log(greetHello(5));  // Output: Hello, John!
+console.log(greetHello("John"));  // Output: Hello, John!
